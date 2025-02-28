@@ -1,0 +1,33 @@
+### Required Libraries
+
+To ensure that your project runs correctly, install the following libraries:
+
+#### Arduino Libraries
+1. **WiFi** - Handles Wi-Fi connectivity.
+2. **HTTPClient** - Sends HTTP requests.
+3. **ArduinoJson** - Parses and generates JSON data.
+4. **Wire** - Manages I2C communication.
+5. **Adafruit_GFX** - Provides graphics functions for OLED display.
+6. **Adafruit_SSD1306** - Drives the SSD1306 OLED display.
+
+#### Installation via Arduino IDE
+1. Open **Arduino IDE**.
+2. Go to **Sketch** > **Include Library** > **Manage Libraries**.
+3. Search for each of the above libraries and install them.
+
+#### Installation via PlatformIO (VS Code)
+If using PlatformIO in VS Code, add the following to `platformio.ini`:
+
+```ini
+lib_deps =
+    arduino-libraries/WiFi
+    bblanchon/ArduinoJson
+    arduino-libraries/HTTPClient
+    adafruit/Adafruit GFX Library
+    adafruit/Adafruit SSD1306
+```
+
+#### Notes
+- Ensure that your ESP32 board is selected in the **Boards Manager**.
+- Use the latest versions of the libraries to prevent compatibility issues.
+
