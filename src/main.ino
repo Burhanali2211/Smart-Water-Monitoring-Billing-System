@@ -6,7 +6,7 @@
 #include <Adafruit_SSD1306.h>
 #include <ThingSpeak.h> // ThingSpeak library
 
-// WiFi Credentials
+// WiFi Credentials given below are of my device please check your ssid and passwrod and replace the below credentials with your own 
 const char* ssid = "admin";
 const char* password = "12345678";
 
